@@ -34,9 +34,9 @@ final class DataService {
                 let jsonData = try decoder.decode([T].self, from: data)
                 
                 // 7. Generate unique id's for the json data
-                for var obj in jsonData {
-                    obj.id = UUID()
-                }
+//                for var obj in jsonData {
+//                    obj.id = UUID()
+//                }
                 
                 // 8. Return the decoded data
                 return jsonData
