@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class Recipe: JsonDataObject {
+final class Recipe: Parseable {
     
     var id: UUID?
     var name: String

@@ -9,7 +9,7 @@ import Foundation
 
 final class DataService {
     
-    static func getLocalData<T: JsonDataObject>(forResource resourceFileName: String, ofType resourceFileExt: String) -> [T] {
+    static func getLocalData<T: Parseable>(forResource resourceFileName: String, ofType resourceFileExt: String) -> [T] {
         
         // 1. Get the path to the json file within the app bundle
         let path = Bundle.main.path(forResource: resourceFileName, ofType: resourceFileExt)

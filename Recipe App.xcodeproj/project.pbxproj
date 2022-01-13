@@ -15,7 +15,7 @@
 		960FA8FC278A7ECA00FEBB59 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FA8FB278A7ECA00FEBB59 /* Recipe.swift */; };
 		960FA8FE278AE2A800FEBB59 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FA8FD278AE2A800FEBB59 /* RecipeModel.swift */; };
 		960FA900278AE2E300FEBB59 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FA8FF278AE2E300FEBB59 /* DataService.swift */; };
-		960FA903278AEA6A00FEBB59 /* JsonDataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FA902278AEA6A00FEBB59 /* JsonDataObject.swift */; };
+		960FA903278AEA6A00FEBB59 /* Parseable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FA902278AEA6A00FEBB59 /* Parseable.swift */; };
 		960FA925278AF71700FEBB59 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FA924278AF71700FEBB59 /* RecipeDetailView.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +29,7 @@
 		960FA8FB278A7ECA00FEBB59 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		960FA8FD278AE2A800FEBB59 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		960FA8FF278AE2E300FEBB59 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
-		960FA902278AEA6A00FEBB59 /* JsonDataObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDataObject.swift; sourceTree = "<group>"; };
+		960FA902278AEA6A00FEBB59 /* Parseable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parseable.swift; sourceTree = "<group>"; };
 		960FA924278AF71700FEBB59 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,7 +128,7 @@
 		960FA901278AEA5700FEBB59 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				960FA902278AEA6A00FEBB59 /* JsonDataObject.swift */,
+				960FA902278AEA6A00FEBB59 /* Parseable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 				960FA925278AF71700FEBB59 /* RecipeDetailView.swift in Sources */,
 				960FA8FC278A7ECA00FEBB59 /* Recipe.swift in Sources */,
 				960FA8FE278AE2A800FEBB59 /* RecipeModel.swift in Sources */,
-				960FA903278AEA6A00FEBB59 /* JsonDataObject.swift in Sources */,
+				960FA903278AEA6A00FEBB59 /* Parseable.swift in Sources */,
 				960FA8E9278A7E3800FEBB59 /* RecipeListView.swift in Sources */,
 				960FA8E7278A7E3800FEBB59 /* RecipeApp.swift in Sources */,
 				960FA900278AE2E300FEBB59 /* DataService.swift in Sources */,
