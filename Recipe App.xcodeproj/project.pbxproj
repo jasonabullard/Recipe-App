@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96050D44278FC434007CE6F6 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96050D43278FC434007CE6F6 /* RecipeTabView.swift */; };
 		960FA8E7278A7E3800FEBB59 /* RecipeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FA8E6278A7E3800FEBB59 /* RecipeApp.swift */; };
 		960FA8E9278A7E3800FEBB59 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FA8E8278A7E3800FEBB59 /* RecipeListView.swift */; };
 		960FA8EB278A7E3A00FEBB59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960FA8EA278A7E3A00FEBB59 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96050D43278FC434007CE6F6 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 		960FA8E3278A7E3800FEBB59 /* Recipe App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		960FA8E6278A7E3800FEBB59 /* RecipeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeApp.swift; sourceTree = "<group>"; };
 		960FA8E8278A7E3800FEBB59 /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			children = (
 				960FA8E8278A7E3800FEBB59 /* RecipeListView.swift */,
 				960FA924278AF71700FEBB59 /* RecipeDetailView.swift */,
+				96050D43278FC434007CE6F6 /* RecipeTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96050D44278FC434007CE6F6 /* RecipeTabView.swift in Sources */,
 				960FA925278AF71700FEBB59 /* RecipeDetailView.swift in Sources */,
 				960FA8FC278A7ECA00FEBB59 /* Recipe.swift in Sources */,
 				960FA8FE278AE2A800FEBB59 /* RecipeModel.swift in Sources */,
