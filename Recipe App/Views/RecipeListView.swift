@@ -9,8 +9,7 @@ import SwiftUI
 
 struct RecipeListView: View {
     
-    // Reference the view model
-    @ObservedObject private var model = RecipeModel()
+    @EnvironmentObject private var model: RecipeModel
     
     var body: some View {
         
@@ -36,7 +35,7 @@ struct RecipeListView: View {
                 }
                 
             }
-            .navigationTitle("Recipes")
+            .navigationTitle("All Recipes")
         }
         .navigationViewStyle(.stack)
         
