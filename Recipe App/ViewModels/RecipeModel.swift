@@ -30,5 +30,4 @@ final class RecipeModel: ObservableObject {
         self.recipes = localData
         
     }
-    
 }

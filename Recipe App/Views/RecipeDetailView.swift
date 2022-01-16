@@ -11,15 +11,46 @@ struct RecipeDetailView: View {
     
     var recipe: Recipe
     
+    @State private var selectedServingSize = 2
+    
     var body: some View {
         
         ScrollView {
             
             VStack (alignment: .leading) {
+                
                 // MARK: Recipe Image
                 Image(recipe.image)
                     .resizable()
                     .scaledToFill()
+                
+                // MARK: Recipe Title
+                Text(recipe.name)
+                    .font(.title2)
+                    .bold()
+                    .padding()
+                
+                // MARK: Recipe Serving Size
+                VStack (alignment: .leading) {
+                    
+                    Text("Select serving size:")
+                    
+                    Picker("", selection: $selectedServingSize) {
+                        
+                        Text("2").tag(2)
+                        Text("4").tag(4)
+                        Text("6").tag(6)
+                        Text("8").tag(8)
+                        
+                    }
+                    .pickerStyle(SegmentedPickerStyle())
+                    .frame(width: 160)
+                    
+                }
+                .padding()
+                
+                
+                Divider()
                 
                 // MARK: Ingredients
                 VStack (alignment: .leading) {
@@ -29,7 +60,7 @@ struct RecipeDetailView: View {
                         .padding(.bottom, 8)
                     
                     ForEach (recipe.ingredients) { i in
-                        Text("- " + i.name)
+                        Text("- \(i.getPortionSize(recipeServings: recipe.servings, targetServings: selectedServingSize)) \(i.name.lowercased())")
                     }
                 }
                 .padding([.horizontal, .top])
