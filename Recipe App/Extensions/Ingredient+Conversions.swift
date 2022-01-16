@@ -57,8 +57,8 @@ extension Ingredient {
                 
                 if unit.suffix(2) == "ch" {
                     unit += "es"
-                } else if unit.suffix(2) == "f" {
-                    unit += String(unit.dropLast()) + "ves"
+                } else if unit.suffix(1) == "f" {
+                    unit = String(unit.dropLast()) + "ves"
                 } else {
                     unit += "s"
                 }

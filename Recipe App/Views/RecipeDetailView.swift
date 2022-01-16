@@ -81,8 +81,10 @@ struct RecipeDetailView: View {
                 }
                 .padding([.horizontal, .top])
             }
+            .onAppear {
+                selectedServingSize = recipe.servings
+            }
         }
-        .navigationTitle(recipe.name)
         
     }
 }
